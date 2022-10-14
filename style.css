@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+
+html {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+body {
+    background-color: #EFEDE7;
+}
+
+.smaller {
+    width: 150px;
+}
+
+#flex1 {
+    display: flex;
+    width: 50%;
+}
+
+#brands {
+    display: flex;
+    gap: 20px;
+}
+
+#brands a {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #7E3227;
+}
+
+#brands a:hover {
+    text-decoration: underline;
+}
+
+#brands p {
+    letter-spacing: 3px;
+    color: rgb(75, 75, 75);
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-top: 45px;
+}
+
+#singleProduct {
+    padding: 18px;
+    background-color: white;
+    
+}
+
+#singleProduct img {
+    width: 100%;
+}
+
+.whichbrand {
+    font-size: 12px;
+    margin-block-end: 0.3em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(75, 75, 75);
+}
+
+.whichmodel {
+    letter-spacing: 3px;
+    margin-block-start: 0em;
+}
+
+
+
+.price {
+    border-bottom: 0.5px solid grey;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    color: rgb(75, 75, 75);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+
+}
+
+.colour {
+    border-bottom: 0.5px solid grey;
+    color: rgb(75, 75, 75);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+.instock{
+    border-bottom: 0.5px solid grey;
+    color: rgb(75, 75, 75);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+
+#tablegrid {
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1.2px solid rgb(202, 202, 202);
+    padding-bottom: 15px;
+}
+
+.specs {
+    padding: 5px;
+    border: 1px solid #7E3227;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+    color: #7E3227;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
